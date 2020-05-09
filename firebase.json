@@ -3,11 +3,7 @@
     {
       "target": "personal-website-webapp",
       "public": "dist/personal-website-webapp",
-      "ignore": [
-        "firebase.json",
-        "**/.*",
-        "**/node_modules/**"
-      ],
+      "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
       "rewrites": [
         {
           "source": "**",

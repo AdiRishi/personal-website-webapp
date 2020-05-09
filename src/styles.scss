@@ -1,1 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
+
+// Normalize styles accross all browsers
+@use 'global-styles/normalize.scss';
+
+// Custom layout styles for the main document
+@use 'global-styles/global-layout.scss';
