@@ -125,6 +125,10 @@
               "devServerTarget": "personal-website-webapp:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {}
         }
       }
     }
