@@ -3,15 +3,42 @@
   height: 100%;
   background-image: url("/assets/images/homepage-background.jpg");
   background-size: cover;
+  display: flex;
 }
 
-.section-header {
+.page-section-wrapper {
+  width: 50%;
+  height: 100%;
+  // border: 3px solid black;
   display: flex;
   flex-direction: column;
   text-align: center;
+}
 
-  > .title,
-  .subtitle {
-    color: white;
+#about-me {
+  @extend .page-section-wrapper;
+
+  color: #c6e9e3;
+
+  &--title {
+    font-family: "Permanent Marker";
+    font-weight: normal;
+    font-size: 3em;
+  }
+  &--subtitle {
+    font-family: "Roboto";
+    margin-top: 0;
+  }
+}
+
+#my-projects {
+  @extend .page-section-wrapper;
+
+  color: #fac4c2;
+
+  &--title {
+    font-family: "Permanent Marker";
+    font-weight: normal;
+    font-size: 3em;
   }
 }
